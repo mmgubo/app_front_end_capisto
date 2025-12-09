@@ -30,12 +30,12 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
-import Dermatologist from './Dermatologist.svg'
-import Gastroenterologist from './Gastroenterologist.svg'
-import General_physician from './General_physician.svg'
-import Gynecologist from './Gynecologist.svg'
-import Neurologist from './Neurologist.svg'
-import Pediatricians from './Pediatricians.svg'
+import Credit from './capitec_credit.png'
+import Connect from './capitec_connect.png'
+import Transact from './capitec_transact.png'
+import Save from './capitec_save.png'
+import Business_Enquiry from './capitec_business_enquiry.png'
+import Insure from './capitec_insure.png'
 
 
 export const assets = {
@@ -60,28 +60,28 @@ export const assets = {
 
 export const specialityData = [
     {
-        speciality: 'General physician',
-        image: General_physician
+        speciality: 'Transact',
+        image: Transact
     },
     {
-        speciality: 'Gynecologist',
-        image: Gynecologist
+        speciality: 'Save',
+        image: Save
     },
     {
-        speciality: 'Dermatologist',
-        image: Dermatologist
+        speciality: 'Credit',
+        image: Credit
     },
     {
-        speciality: 'Pediatricians',
-        image: Pediatricians
+        speciality: 'Insure',
+        image: Insure
     },
     {
-        speciality: 'Neurologist',
-        image: Neurologist
+        speciality: 'Business Enquiry',
+        image: Business_Enquiry
     },
     {
-        speciality: 'Gastroenterologist',
-        image: Gastroenterologist
+        speciality: 'Connect',
+        image: Connect
     },
 ]
 
