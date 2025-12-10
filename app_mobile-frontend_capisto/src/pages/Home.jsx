@@ -1,12 +1,14 @@
 import React from 'react'
-import Header from '../context/Header'
-import ProductMenu from '../context/ProductMenu'
+import Header from '../components/Header'
+import ProductMenu from '../components/ProductMenu'
+import Banner from '../components/Banner'
 
 const Home = () => {
   return (
     <div>
         <Header />
         <ProductMenu />
+        <Banner />
     </div>
   )
 }
